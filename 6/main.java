@@ -45,7 +45,6 @@ public class main {
 
             while ((line = br.readLine()) != null) {
                 line_s = line.trim().split("\\s+");
-                System.out.println(line_s.length);
 
                 for (int i = 0; i < line_s.length; i++) {
                     if (Character.isDigit(line_s[i].charAt(0))) {
